@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@splinetool/runtime": "^0.9.183",
+    "flowbite": "^1.6.2",
+    "smooth-scrollbar": "^8.8.1"
+  },
+  "name": "cool",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
