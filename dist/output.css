@@ -1058,6 +1058,18 @@ input:checked + .toggle-bg{
   bottom: 0px;
 }
 
+.right-4{
+  right: 1rem;
+}
+
+.right-12{
+  right: 3rem;
+}
+
+.right-10{
+  right: 2.5rem;
+}
+
 .z-50{
   z-index: 50;
 }
@@ -1090,11 +1102,6 @@ input:checked + .toggle-bg{
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
-}
-
-.mx-20{
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 .mt-72{
@@ -1177,8 +1184,8 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
-.h-14{
-  height: 3.5rem;
+.h-24{
+  height: 6rem;
 }
 
 .h-modal{
@@ -1307,10 +1314,6 @@ input:checked + .toggle-bg{
   flex-direction: column;
 }
 
-.content-center{
-  align-content: center;
-}
-
 .content-between{
   align-content: space-between;
 }
@@ -1343,9 +1346,8 @@ input:checked + .toggle-bg{
   justify-content: space-between;
 }
 
-.gap-x-10{
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
+.justify-evenly{
+  justify-content: space-evenly;
 }
 
 .gap-y-20{
@@ -1612,6 +1614,10 @@ input:checked + .toggle-bg{
   padding-top: 5rem;
 }
 
+.pb-8{
+  padding-bottom: 2rem;
+}
+
 .pt-2{
   padding-top: 0.5rem;
 }
@@ -1653,11 +1659,6 @@ input:checked + .toggle-bg{
   line-height: 1;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1;
@@ -1675,6 +1676,11 @@ input:checked + .toggle-bg{
 
 .text-xl{
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1983,9 +1989,6 @@ canvas {
   }
 }
 
-@media only screen and (max-width: 425px) {
-}
-
 .hover\:border-gray-300:hover{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -2191,6 +2194,97 @@ canvas {
 }
 
 @media (min-width: 640px){
+  .sm\:right-4{
+    right: 1rem;
+  }
+
+  .sm\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .sm\:mx-6{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .sm\:mx-12{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .sm\:ml-6{
+    margin-left: 1.5rem;
+  }
+
+  .sm\:ml-5{
+    margin-left: 1.25rem;
+  }
+
+  .sm\:flex{
+    display: flex;
+  }
+
+  .sm\:hidden{
+    display: none;
+  }
+
+  .sm\:h-14{
+    height: 3.5rem;
+  }
+
+  .sm\:h-12{
+    height: 3rem;
+  }
+
+  .sm\:h-6{
+    height: 1.5rem;
+  }
+
+  .sm\:content-center{
+    align-content: center;
+  }
+
+  .sm\:items-center{
+    align-items: center;
+  }
+
+  .sm\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .sm\:justify-between{
+    justify-content: space-between;
+  }
+
+  .sm\:justify-evenly{
+    justify-content: space-evenly;
+  }
+
+  .sm\:justify-items-start{
+    justify-items: start;
+  }
+
+  .sm\:gap-x-10{
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
+  .sm\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .sm\:py-14{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .sm\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .sm\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2256,6 +2350,11 @@ canvas {
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 

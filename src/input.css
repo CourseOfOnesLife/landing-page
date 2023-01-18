@@ -165,14 +165,10 @@ canvas {
   .section-2-text {
     font-size: 1.5rem;
   }
-
   .canvas-wrapper {
     display: none;
   }
   .canvas-cool {
     left: -10%;
   }
-}
-
-@media only screen and (max-width: 425px) {
 }
