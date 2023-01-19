@@ -1,4 +1,5 @@
-import { Application } from '../node_modules/@splinetool/runtime/build/runtime.js';
+import { Application } from '@splinetool/runtime';
+
 
 
 
