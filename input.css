@@ -3,20 +3,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,800&display=swap");
 
-.hero-description {
-  font-size: 4rem;
-}
-
-.section-2-header {
-  text-align: end;
-  padding-right: 4rem;
-}
-
-
-
-.nav {
-  z-index: 999;
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +13,20 @@
 body {
   overflow-x: hidden;
 }
+
+.section-2-header {
+  text-align: end;
+  padding-right: 4rem;
+}
+
+.line-20 {
+  line-height: 5rem;
+}
+
+.nav {
+  z-index: 999;
+}
+
 .section-1 {
   z-index: 998;
 }
@@ -63,9 +63,6 @@ body {
   rotate: 45deg;
 }
 
-.hero-description {
-  z-index: 3;
-}
 
 .canvas-cool {
   position: absolute;
@@ -132,11 +129,6 @@ canvas {
     justify-content: center;
     align-items: center;
   }
-  .hero-description {
-    margin-top: 0;
-    font-size: 3rem;
-  }
-
   .section-1-header {
     font-size: 4rem;
   }
@@ -152,6 +144,9 @@ canvas {
   .section-2-text {
     font-size: 1.5rem;
   }
+  .line-20 {
+    line-height: 3.5rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -159,10 +154,6 @@ canvas {
     height: 100vh;
     justify-content: center;
     align-items: center;
-  }
-  .hero-description {
-    margin-top: 0;
-    font-size: 3rem;
   }
 
   .section-1-header {
@@ -186,6 +177,9 @@ canvas {
   .canvas-cool {
     left: -10%;
   }
+  .line-20 {
+    line-height: 3.5rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -196,9 +190,8 @@ canvas {
     left: 7.5%;
     top: 10%;
   }
-  .hero-description {
-    margin: 2rem;
-    font-size: 2.2rem;
+  .line-20 {
+    line-height: 3.5rem;
   }
   .card-section {
     flex-direction: column;
